@@ -1,90 +1,119 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f9;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnus Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #800080; /* standard purple background */
+            color: #ffd700; /* vivid golden text */
+        }
 
-#all-contents {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
+        nav {
+            background-color: #660066; /* darker shade of purple for nav */
+            padding: 10px 0;
+        }
 
-/* Header styles */
-h1 {
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
-}
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
 
-/* Navigation styles */
-nav {
-  background-color: #333;
-  padding: 10px 0;
-}
+        nav ul li {
+            margin-right: 15px;
+        }
 
-#nav-ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
+        nav ul li a {
+            color: #ffd700; /* vivid golden */
+            text-decoration: none;
+            padding: 5px 10px;
+            display: block;
+        }
 
-.nav-li {
-  margin: 0 15px;
-}
+        nav ul li a:hover {
+            background-color: #993399; /* slightly lighter purple for hover */
+            color: #ffffff; /* white text on hover for contrast */
+        }
 
-.nav-li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
 
-.nav-li a:hover {
-  color: #ffcc00;
-}
+        h1 {
+            color: #ffd700; /* vivid golden */
+            text-align: center;
+        }
 
-/* Main content styles */
-main {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-}
+        main {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
 
-.sidebar {
-  flex: 1;
-}
+        .sidebar {
+            flex: 1;
+        }
 
-.sidebar-img {
-  width: 100%;
-  max-width: 150px;
-  border-radius: 8px;
-}
+        .sidebar-img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 8px;
+        }
 
-h2 {
-  color: #555;
-}
+        h2, h3 {
+            color: #ffd700; /* vivid golden */
+        }
 
-p {
-  color: #666;
-}
+        p, li {
+            color: #ffffff; /* white text for readability */
+        }
 
-/* Interests section styles */
-#interest {
-  flex: 2;
-}
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
 
-h3 {
-  color: #444;
-  margin-top: 0;
-}
+        #projects article {
+            border: 1px solid #ffd700; /* vivid golden border */
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #993399; /* medium purple */
+            border-radius: 5px;
+        }
 
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
+        .alumnus-text {
+            color: #ffd900; /* vivid golden */
+            padding: 20px;
+            background-color: #993399; /* medium purple */
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
 
-li {
-  color: #777;
-}
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div id="all-contents">
+    <h1>My Educational Journey</h1>
+    <div class="alumnus-text">
+        As a proud alumnus of Edward Hynes Parkview School, I carry with me the foundational values and education that have shaped my journey. My time at Parkview was marked by enriching experiences and supportive mentors who instilled in me a passion for learning and personal growth. Now, as a current student at St. Augustine High School, I am excited to build upon this strong foundation. At St. Augustine, I am embracing new challenges and opportunities that further develop my skills and broaden my horizons. The transition from Parkview to St. Augustine represents not just a change in schools, but a continuous journey of academic excellence and character development.
+    </div>
+</div>
+
+</body>
+</html>
