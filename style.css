@@ -1,25 +1,90 @@
-/* Portfolio styles */
-.content h1 {
-  color: black;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
 }
 
-#portfolio {
+#all-contents {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+#nav-ul {
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-#portfolio li {
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+.nav-li {
+  margin: 0 15px;
 }
 
-#portfolio li:hover {
-  background: #eee;
-}
-
-#portfolio a {
+.nav-li a {
+  color: #fff;
   text-decoration: none;
-  color: #454545;
+  font-weight: bold;
+}
+
+.nav-li a:hover {
+  color: #ffcc00;
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.sidebar-img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #555;
+}
+
+p {
+  color: #666;
+}
+
+/* Interests section styles */
+#interest {
+  flex: 2;
+}
+
+h3 {
+  color: #444;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  color: #777;
 }
