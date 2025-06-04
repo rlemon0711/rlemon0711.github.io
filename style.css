@@ -1,6 +1,6 @@
 /* Portfolio styles */
 .content h1 {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 #portfolio {
@@ -9,7 +9,7 @@
 }
 
 #portfolio li {
-  background: #fff;
+  background: #ffffff;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -21,7 +21,7 @@
 
 #portfolio a {
   text-decoration: none;
-  color: #454545;
+  color: #003831;
 }
 zoom: 1.5;
 /* responsive web design */
@@ -77,7 +77,7 @@ body {
     background: rgb(125, 198, 205);
     color: rgb(45, 45, 45);
     padding: 10px;
-    font-family: Arial, sans-serif;
+    font-family: lobster, sans-serif;
 }
 
 #all-contents {
@@ -87,7 +87,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(2, 62, 68);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -141,7 +141,7 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(192, 192, 192) ridge;
     padding: 8px;
     margin-top: 20px;
 }
